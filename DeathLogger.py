@@ -13,7 +13,7 @@ import os
 
 logLocation = 'log.txt'		#where to find the server logs
 langLocation = 'lang.txt'	#where to find the language file of MC
-checkInterval = 3				#after how many seconds should be checked again
+checkInterval = 30				#after how many seconds should be checked again
 
 #----------------------------------Init--------------------------------------
 
