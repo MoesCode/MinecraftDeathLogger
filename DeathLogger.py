@@ -1,5 +1,6 @@
 #coding: utf-8
 #Python 2.7
+#views best with tab = 3 spaces, on git append '?ts=3' to the URL
 
 import re
 import string
