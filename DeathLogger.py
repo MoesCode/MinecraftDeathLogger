@@ -56,7 +56,7 @@ def cleanDeathsMessages():							#strip vars out of strings
 	hlist = []											#placeholder list
 	replaceVarWithRegEx = 	{						#replace vars with regex or null :P
 								'%1$s':'([\w§]+)',	#1 is always the victim	#special case for § (coloured names)
-								'%2$s':'(\w+)',		#2 is the killer
+								'%2$s':'([\w§]+)',		#2 is the killer
 								'%3$s':'(\w+)',		#3 is the weapon
 								'\n':'',					#newline gets removed...
 							}	
